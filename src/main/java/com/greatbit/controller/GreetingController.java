@@ -1,4 +1,4 @@
-package com.greatbit.controllers;
+package com.greatbit.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,7 +13,6 @@ public class GreetingController {
         model.addAttribute("name", name);
         return "greeting";
     }
-
 
 
 
